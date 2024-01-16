@@ -66,6 +66,7 @@ li {
 
 .header p {
     font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .img {
@@ -85,9 +86,10 @@ li {
 .header .mid-btn {
     background-color: #3882f6;
     color: #f9faf8;
-    text-decoration: none;
-    border-radius: 15px;
-    padding: 10px 20px;
+    border-radius: 5px;
+    padding: 5px 35px;
+    margin: 20px 0;
+    font-weight: bold;
 }
 
 .boxes h2 {
@@ -109,7 +111,7 @@ li {
 .boxes .box {
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 60px 0;
     margin: 0 15px;
 }
@@ -136,20 +138,22 @@ cite {
 
 .call .container {
     background-color: #3882f6;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     margin: 48px auto;
-    padding: 48px;
+    padding: 38px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container .end-btn {
-    border: solid white;
-    border-radius: 15px;
+    border: solid;
+    border-radius: 5px;
     background-color: transparent;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 35px;
+    font-weight: bold;
 }
 
 .footer {
