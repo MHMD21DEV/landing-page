@@ -70,7 +70,7 @@ li {
 }
 
 .img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .header img {
@@ -109,10 +109,6 @@ li {
 }
 
 .boxes .box {
-    border-style: solid;
-    border-color: #3882f6;
-    border-radius: 10px;
-    padding: 60px 0;
     margin: 0 15px;
 }
 
@@ -120,6 +116,15 @@ li {
     text-align: center;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    margin: 0 15px;
 }
 
 .quote {
